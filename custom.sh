@@ -1,2 +1,2 @@
 #!/bin/sh
-echo "Hello CI/CD"
+echo "Hello CI/CD Pipeline"
