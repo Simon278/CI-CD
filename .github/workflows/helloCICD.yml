@@ -27,5 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run our custom script
-        run: ./custom.sh -xe
+        run: |
+        chmod a+x ./custom.sh 
+        ./custom.sh
 
